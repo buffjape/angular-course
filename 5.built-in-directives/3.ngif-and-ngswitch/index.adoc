@@ -18,7 +18,7 @@ If the condition is `false` the element the directive is _attached to_ will be _
 
 [IMPORTANT]
 ====
-The difference between `[hidden]='false'` and `*ngIf='false'` is that the first method simply _hides_ the element. The second method with `ngIf` _removes_ the element completely from the DOM.
+The difference between `[hidden]='true'` and `*ngIf='false'` is that the first method simply _hides_ the element. The second method with `ngIf` _removes_ the element completely from the DOM.
 ====
 
 We define the condition by passing an expression to the directive which is evaluated in the context of its host component.
